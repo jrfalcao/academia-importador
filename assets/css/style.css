@@ -1,0 +1,111 @@
+*{box-sizing: border-box; margin: 0; padding: 0; }
+body{background-image: url(../images/bg2-1.jpg); }
+.header{background-color: #060606; position: relative; }
+.header_int{ }
+.header_int figure{width: 40%; float: left; margin-top: 10px; margin-bottom: 10px;}
+
+.topo_left{float: left; width: 50%; }
+.topo_left figure{width: 300px; margin-left: 10px}
+.topo_dir li{font-size: 20px; padding: 10px; float: left;color: #C0C0C0; }
+.topo_dir li:hover{color: #FFF; text-shadow: 2px 2px 4px #000000; background-image: url(../images/bg2-1.jpg); }
+
+.infovideo{background-color: #2F4F4F; padding-top: 10px; padding-bottom: 20px; box-sizing: border-box;}
+.video{float: left; position: relative;
+    padding-bottom: 40%; 
+    height: 0;
+    margin: 0 auto;
+}
+.video iframe{position: absolute;
+	padding: 0 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.info_dir{color: #FFF; font-size: 18px; float: left;padding-bottom: 20px}
+
+@media screen and (min-width: 800px) {
+  iframe { 
+    height: 29vw;
+    width: 60%; 
+  }
+
+  .topo_dir nav{position: absolute; bottom: 0; right: 0}
+}
+
+.desc_autor{padding-top: 20px; background-color: #ccc}
+
+.bt_acao a{font-size: 1.8em; width: 100%; padding: 30px;}
+.link_acao a{vertical-align: center; text-align-last: center}
+.desc_autor article{background-color: rgba(0,0,0,.5); padding: 20px 10px}
+.desc_autor article header{text-align: center; color: #FFF}
+.autor {text-align: justify; color: #fff}
+.autor img{margin-right: 15px}
+.autor p{font-size: 18px; font-family: cursive;}
+.curso_grade{background-image: url(../images/bg3.png); min-height: 300px; padding: 20px 15px; }
+.curso_grade header{text-align: center; color: #FFF; font-weight:300; font-family:"Open Sans", sans-serif; }
+.curso_grade header h1{font-size: 43px; }
+.grade_img img{width: 100%;}
+.grade_conteudo{margin-top: 15px}
+.toggle_panel{position: relative; cursor: pointer; font-weight: bold;}
+.toggle_panel span{position: absolute; right: 15px; font-size: 20px}
+.toggle_panel .titulo{width: 85%; color: #59595B}
+.curso_bonus{background-image: url(../images/Fundo-cinza1.jpg);min-height: 300px; padding-top: 20px; padding-bottom: 20px}
+.bonus_conteudo h1{color: #B41F19; font-weight: bolder; font-size: 40px; font-family: cursive;}
+.bonus_img img{width: 100%; max-width: 300px; margin-top: 10px}
+.bonus_left{width: 50%; float: left;}
+.bonus_right{width: 50%; float: right;}
+
+.acao_venda{background-color: #FFF;}
+.acao_chamada{width: 100%; background-image: url(../images/people-background.jpg); min-height: 200px; padding: 30px 50px;}
+.acao_chamada h2{margin-bottom: 25px}
+.acao_chamada p{font-size: 17.3px; margin-bottom: 25px;}
+
+.preco{padding: 20px; margin-bottom: 50px}
+.acao_preco img{width: 80%; margin-bottom: 20px}
+.acao_preco{text-align: center;}
+
+.videos_depoimentos{background-color: #FDC54B; min-height: 300px; padding: 20px}
+.videos_depoimentos h1{text-align: center; font-family: fantasy; font-weight: bold; font-size: -webkit-xxx-large; margin-bottom: 35px; margin-top: 30px}
+.videos_left{width: 35%; float: left}
+.videos_left img{width: 85%; margin-bottom: 15px}
+.video_center{width: 30%; text-align: center; float: left; margin-bottom: 15px}
+.video_center img{width: 85%}
+.videos_right{width: 35%; text-align: center; float: right; margin-bottom: 15px}
+.videos_right img{width: 85%; margin-bottom: 15px}
+.modal_video{width: 100%; text-align: center; }
+.modal-body .input-group{width: 100%; text-align: center; font-weight: bolder; font-family: cursive;}
+
+.botao{margin: 0 auto; text-align: center; width: 560px; margin-bottom: 30px}
+
+.garantia{padding: 15px 0; background-color: #FFF;}
+.garantia header{ text-align: center; }
+.garantia_conteudo{padding-left: 30px; padding-right: 30px; padding-bottom: 50px}
+.garantia-conteudo_int{background: linear-gradient(to bottom,#43484b 0,#131313 100%); color: #FFF; border-radius: 10px}
+.garantia-conteudo_int figure{text-align: center; vertical-align: baseline; margin-top: 15px}
+.garantia-conteudo_int p, .garantia-conteudo_int h2{font-style: normal; font-weight: 300; font-family: "Ubuntu", sans-serif; text-shadow: #000 0 1px 1px;}
+
+.contato{min-height: 200px; background-color: #DDD; border: 3px solid #FFF; border-top: 0;
+  border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; margin-bottom: 10px; padding-top: 20px;
+}
+.contato h1, .contato h2, .contato h3{margin:0; padding: 0}
+.contato h2{text-align: center;}
+.contato_left img{border-radius: 30px}
+.contato_left{padding-top: 30px}
+.img_facebook{float: left; margin-right: 15px; margin-left: 15px}
+.rede_facebook{float: left; }
+.contato_right{padding-top: 30px}
+.img_localizacao{float: left; padding-right: 15px}
+.localizacao{float: left;}
+
+.footer{color: #dbdbdb; font-family: "Source Sans Pro", sans-serif;
+  border: 1px solid rgba(255,255,255,0); padding: 30px 20px;
+  background: -webkit-linear-gradient(top, #212121 0%,#212121 100%);
+}
+.footer .conteudo{text-align: center;}
+.footer a{color: #dbdbdb; text-decoration: none; float: right;}
+.footer a:hover{ text-decoration: underline; }
+
+.footer p{ font-size: 13px; }
+.footer-copyright{float: left;}
+                        
