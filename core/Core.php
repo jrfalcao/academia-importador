@@ -5,7 +5,7 @@ class Core {
 		//$url = explode('index.php', $_SERVER['PHP_SELF']);
 		//$url = end($url);
 		$url = '/'.((isset($_GET['q']))? $_GET['q']: '');
-
+		var_dump($url);
 		$params = array();
 		if(!empty($url) && $url != '/') {
 			$url = explode('/', $url);
